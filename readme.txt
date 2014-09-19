@@ -38,7 +38,9 @@ This plugin will enable Accordion With Custom Post Support in your wordpress the
 
 == Screenshots ==
 
-
+1. Screenshort 1
+1. Screenshort 2
+1. Screenshort 3
 
 == Changelog ==
 

@@ -1,5 +1,5 @@
 === Perfect Accordion ===
-Tags: Accordion, Text Accordion, Text Expand, jQuery Text effect, Text effect jQuery Accordion
+Tags: Accordion, Text Accordion, Text Expand, jQuery Text effect, Text effect jQuery Accordion, themeultra, ultra
 Requires at least: 3.0.1
 Tested up to: 3.9.1
 Stable tag: 1.0

@@ -1,7 +1,183 @@
 
-.raccordion {background: none repeat scroll 0 0 #429C46;color: #FFFFFF;margin: 1px 0;}
-.raccordion-title {cursor: pointer;display: block;font-size: 14px;font-weight: bold;height: 20px;padding: 6px 10px;}
-.raccordion-content {background: steelblue;color: #FFFFFF;font-size: 12px;padding: 10px;}
-.raccordion-arrow {height: 28px;width: 29px;}
-.arrow-up {background: url("../img/arrow-down.png") no-repeat scroll 99% 4px / 23px auto rgba(0, 0, 0, 0);}
-.arrow-down {background: url("../img/arrow-up.png") no-repeat scroll 99% 4px / 23px auto rgba(0, 0, 0, 0);}
+.raccordion {
+  background: #429c46 none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #ffffff;
+  margin: 1px 0;
+}
+.raccordion-title {
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 27px 10px 10px;
+}
+.raccordion-content {
+  background: steelblue;color: #FFFFFF;font-size: 12px;padding: 10px;
+}
+.raccordion-arrow {
+  height: 28px;width: 29px;
+}
+.arrow-up {
+  background: rgba(0, 0, 0, 0) url("../img/arrow-down.png") no-repeat scroll 98% center / 23px auto;
+}
+.arrow-down {
+  background: url("../img/arrow-up.png") no-repeat scroll 98% center / 23px auto rgba(0, 0, 0, 0);
+}
+
+
+
+/* Style One */
+div.st-one .raccordion {
+  background: #ddd none repeat scroll 0 0;
+  border: 1px solid #999;
+  border-radius: 3px;
+  color: #555;
+  margin: 1px 0;
+}
+div.st-one .raccordion-title {
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 27px 10px 10px;
+}
+div.st-one .raccordion-content {
+  background: #aaa none repeat scroll 0 0;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px;
+}
+
+div.st-one .arrow-up {
+  background: rgba(0, 0, 0, 0) url("../img/style-one+.png") no-repeat scroll 98% center / 23px auto;
+}
+div.st-one .arrow-down {
+  background: url("../img/style-one-.png") no-repeat scroll 98% center / 23px auto rgba(0, 0, 0, 0);
+}
+
+
+
+/* Style Two */
+div.st-two .raccordion {
+  background: #000 none repeat scroll 0 0;
+  border: 1px solid #000;
+  border-radius: 3px;
+  color: #fff;
+  margin: 1px 0;
+}
+div.st-two .raccordion-title {
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 27px 10px 10px;
+}
+div.st-two .raccordion-content {
+  background: #fff none repeat scroll 0 0;
+  color: #000;
+  font-size: 12px;
+  padding: 10px;
+}
+
+div.st-two .arrow-up {
+  background: rgba(0, 0, 0, 0) url("../img/style-two+.png") no-repeat scroll 98% center / 23px auto;
+}
+div.st-two .arrow-down {
+  background: url("../img/style-two-.png") no-repeat scroll 98% center / 23px auto rgba(0, 0, 0, 0);
+}
+
+
+
+/* Style Three */
+div.st-three .raccordion {
+  background: transparent none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #fff;
+  margin: 1px 0;
+}
+div.st-three .raccordion-title {
+  background-color: #65bad9 !important;
+  border-radius: 5px;
+  color: #444;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 44px 10px 10px;
+}
+div.st-three .raccordion-content {
+  background: #88caea none repeat scroll 0 0;
+  border-color:#65bad9;
+  border-radius: 0 0 5px 5px;
+  border-style: solid;
+  border-width: 0 2px 2px;
+  color: #000;
+  font-size: 12px;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+div.st-three .arrow-up {
+  background: rgba(0, 0, 0, 0) url("../img/style-three+.png") no-repeat scroll 98% center / 23px auto;
+}
+div.st-three .arrow-down {
+  background: url("../img/style-three-.png") no-repeat scroll 98% center / 23px auto rgba(0, 0, 0, 0);
+}
+
+
+
+/* Style Four */
+div.st-four .raccordion {
+  background: transparent none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #fff;
+  margin: 1px 0;
+}
+div.st-four .raccordion-title {
+  background-color: #65bad9 !important;
+  border-radius: 5px;
+  color: #444;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 27px 10px 10px;
+}
+
+div.st-four .raccordion:nth-child(2n) .raccordion-title {
+  background-color: #ff00ff !important;
+  color: brown;
+}
+div.st-four .raccordion:nth-child(2n) .raccordion-content{
+    background-color: #FF99FF !important;
+    border-color:#FF00FF;
+}
+
+div.st-four .raccordion:nth-child(3n) .raccordion-title {
+  background-color: yellow !important;
+  color: green;
+}
+div.st-four .raccordion:nth-child(3n) .raccordion-content{
+    background-color: #FFFF99 !important;
+    border-color:yellow;
+}
+
+div.st-four .raccordion-content {
+  background: #88caea none repeat scroll 0 0;
+  border-color:#65bad9;
+  border-radius: 0 0 5px 5px;
+  border-style: solid;
+  border-width: 0 2px 2px;
+  color: #000;
+  font-size: 12px;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+div.st-four .arrow-up {
+  background: rgba(0, 0, 0, 0) url("../img/style-four+.png") no-repeat scroll 98% center / 23px auto;
+}
+div.st-four .arrow-down {
+  background: url("../img/style-four-.png") no-repeat scroll 98% center / 23px auto rgba(0, 0, 0, 0);
+}

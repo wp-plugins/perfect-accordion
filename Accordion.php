@@ -91,4 +91,9 @@ function accordion_markup_test($atts){
 }
 add_shortcode('accordion', 'accordion_markup_test');
 
+
+/* Shortcode Support for Text widget */
+add_filter('widget_text', 'do_shortcode');
+
+
 ?>

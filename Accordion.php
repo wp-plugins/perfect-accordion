@@ -2,9 +2,9 @@
 /*
 Plugin Name: Perfect Accordion
 Plugin URI: http://demo.themeultra.com/wp-plugin/perfect-accordion/
-Description: This is a awesome Accordion Plugin for your wordpress website. If you need any kind of support you can ask in our official website <a taget="blank" href="http://www.themeultra.com/support/">Ask Question</a>. To setup this plugin Read the <a target="blank" href="http://demo.themeultra.com/wp-plugin/perfect-accordion/">Documentation</a>. To view Demo <a target="blank" href="">Click-Here</a>   
+Description: This is a awesome Accordion Plugin for your wordpress website. If you need any kind of support you can ask in our official website <a taget="blank" href="http://www.themeultra.com/support/">Ask Question</a>. To setup this plugin Read the <a target="blank" href="http://www.themeultra.com/downloads/perfect-accordion/">Documentation</a>. To view Demo <a target="blank" href="http://www.themeultra.com/demos/perfect-accordion/">Click-Here</a>   
 Author: ThemeUltra.com
-Version: 2.0.1
+Version: 2.0.2
 Author URI: http://www.themeultra.com
 */
 
